@@ -36,3 +36,6 @@ def add(a,b):
 a = int(input("enter a number:"))
 b = int(input("enter another number:"))
 print(add(a,b))
+
+
+
