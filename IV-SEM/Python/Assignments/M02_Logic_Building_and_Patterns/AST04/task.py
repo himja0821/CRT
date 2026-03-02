@@ -1,5 +1,10 @@
-def reverseString(s):
-    reversed_str = ""
+def Reverse_String(s: str) -> str:
+    reversed_string = ""
     for char in s:
-        reversed_str = char + reversed_str
-    return reversed_str
+        reversed_string = char + reversed_string
+    return reversed_string
+
+
+if __name__ == '__main__':
+    s = input()
+    print(Reverse_String(s))

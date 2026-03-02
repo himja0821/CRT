@@ -71,6 +71,8 @@ ex - n = 123 so the cubes of 1 2 and 3 should be equal to 123
 10. find digital root of number - ex : n = 4653 , so the sum is 18 , but 18 is a double digit number so we again add 18 as 1 + 8 = 9 , now 9 is a single digit number . now we can display 9.
 
 11. check spy number
-
 '''
+
+
+
 

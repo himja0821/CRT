@@ -53,7 +53,7 @@ for i in range(2, num+1):
     if counter == 0:    
         print(i, end = " ") 
     
-'''
+
 #read a number from the user and display factorial of a number . Input - 5, output -120
 
 n = int(input())
@@ -70,8 +70,8 @@ if n < 0:
     rev = int(str(n)[::-1])
     print(-1*rev)
 else:
-    print(int(str(n)[::-1]))
-
+    print(int(str(n)[::-1]))    
+'''
 
 
 
