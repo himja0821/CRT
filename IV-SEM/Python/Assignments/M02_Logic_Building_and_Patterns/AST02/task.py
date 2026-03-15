@@ -1,15 +1,11 @@
-def even_odd(n: int) -> str:
-    if n % 2 != 0:
-        return "Weird"
-    else:
-        if 2 <= n <= 5:
-            return "Not Weird"
-        elif 6 <= n <= 20:
-            return "Weird"
-        else:
-            return "Not Weird"
+def reverse_number(n: int) -> int:
+    reversed_num = 0
+    while n > 0:
+        digit = n % 10
+        reversed_num = reversed_num * 10 + digit
+        n //= 10
+    return reversed_num
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
-    print(even_odd(n))
+    print(reverse_number(n))
